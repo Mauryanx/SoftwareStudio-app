@@ -1,5 +1,5 @@
 
-from fibonacci import fibonacci_sequence
+from fibo import fibonacci_sequence
 def test_fibonacci_sequence():
     # Test case 1: First 5 Fibonacci numbers
     assert fibonacci_sequence(5) == [0, 1, 1, 2, 3], "Test case 1 failed"
